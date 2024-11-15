@@ -11,7 +11,7 @@ Extracts image features using EfficientNet with ArcFace and finds image matches 
 - `combine.py`  
 Combines text and image matches and evaluates the results against the ground truth label mappings.
 
-- `clip.py` (potential)  
+- `clip.py` **(potential)**  
 Implements feature extraction using the CLIP model.
 
 ## Limitations of Current Implementation  
@@ -20,5 +20,4 @@ To implement cross-validation, the ideal structure for managing the complex proc
 ## Data Source
 Dataset from the Kaggle competition: [Shopee Product Matching](https://www.kaggle.com/competitions/shopee-product-matching).  
 
-You can download data using Kaggle api:  
-`kaggle competitions download -c shopee-product-matching`
+You can download data using Kaggle api: `kaggle competitions download -c shopee-product-matching`.
