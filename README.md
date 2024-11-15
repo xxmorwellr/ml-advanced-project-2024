@@ -2,9 +2,6 @@
 This repository contains my final project for the master's course *Machine Learning for Statistical NLP: Advanced*. The project is open-ended, and I selected a previous Kaggle competition as the focus of my exploration.
 
 ## Basic File Structure
-- `shopee-product-matching.zip`  
-Metadata downloaded from Kaggle, including training and test datasets.
-
 - `text.py`  
 Extracts text features using TF-IDF and BERT models and identifies text matches based on cosine similarity.
 
@@ -22,3 +19,5 @@ To implement cross-validation, the ideal structure for managing the complex proc
 
 ## Data Source
 Dataset from the Kaggle competition: [Shopee Product Matching](https://www.kaggle.com/competitions/shopee-product-matching).
+You can download data using Kaggle api:  
+`kaggle competitions download -c shopee-product-matching`
