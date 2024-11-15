@@ -17,7 +17,6 @@ Implements feature extraction using the CLIP model.
 ## Limitations of Current Implementation  
 To implement cross-validation, the ideal structure for managing the complex processes would involve a main script coordinating three or more sub-scripts. However, challenges in argument sharing and dynamic parameter adjustments based on varying data sizes prevented full implementation of this structure at this time.
 
-## Data Source
-Dataset from the Kaggle competition: [Shopee Product Matching](https://www.kaggle.com/competitions/shopee-product-matching).  
-
+## Source
+Kaggle competition: [Shopee Product Matching](https://www.kaggle.com/competitions/shopee-product-matching).  
 You can download data using Kaggle api: `kaggle competitions download -c shopee-product-matching`.
